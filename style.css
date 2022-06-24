@@ -239,7 +239,7 @@ ul {
 /* TESTIMONALS */
 /* ************ */
 
-.container {
+#testimonials .container {
   display: flex;
   flex-direction: column;
   padding: 4.4rem 0;
@@ -310,6 +310,19 @@ blockquote {
 
 footer {
   background-color: var(--Dark-moderate-cyan-footer);
+}
+
+footer .container {
+  padding: 6.4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+}
+
+.footer-logo img {
+  max-width: 18.4rem;
 }
 
 .footer-nav-list {
