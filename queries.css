@@ -44,6 +44,14 @@
     padding: 0 3.2rem 4.8rem 3.2rem;
   }
 
+  .services.graphic-design {
+    background-image: url("/images/desktop/image-graphic-design.jpg");
+  }
+
+  .services.photography {
+    background-image: url("/images/desktop/image-photography.jpg");
+  }
+
   /* ************ */
   /* TESTIMONIALS */
   /* ************ */
@@ -89,10 +97,6 @@
     font-size: 2rem;
   }
 
-  .main-nav-link:hover {
-    color: var(--Dark-grayish-blue);
-  }
-
   .modal {
     display: none;
   }
@@ -100,14 +104,17 @@
   /* ************ */
   /* ABOUT */
   /* ************ */
+
+  .img-content img {
+    height: 100%;
+  }
+
   .text-content {
-    padding-bottom: 0;
     align-items: flex-start;
     text-align: start;
   }
 
   .text-content.first {
-    padding-bottom: 0;
     grid-column: 1/2;
     grid-row: 1/2;
   }

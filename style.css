@@ -126,10 +126,11 @@ img {
 .main-nav-link {
   font-size: 3.2rem;
   color: var(--White);
+  transition: all 0.2s;
 }
 
 .main-nav-link:hover {
-  color: var(--Dark-grayish-blue);
+  border-bottom: var(--White) 5px solid;
 }
 
 .modal {
@@ -156,11 +157,9 @@ img {
 .hero {
   background-image: url("/images/mobile/image-header.jpg");
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
   background-color: var(---turquise-blue);
-  max-width: 100%;
 }
 
 .hero .container {
@@ -168,8 +167,9 @@ img {
   display: flex;
   flex-direction: column;
   gap: 15rem;
-  justify-content: space-between;
+  justify-content: spaces;
   align-items: center;
+  height: 65rem;
 }
 
 .hero-heading {
