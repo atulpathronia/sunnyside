@@ -112,6 +112,7 @@ img {
   opacity: 1;
   visibility: visible;
   transform: translateX(0);
+  pointer-events: fill;
 }
 
 .main-nav-list {
@@ -130,7 +131,19 @@ img {
 .modal {
   background-color: transparent;
   border: none;
-  z-index: 999999;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.closeBtn,
+.openBtn {
+  font-size: 4rem;
+  color: var(--White);
+}
+
+.inactive {
+  display: none;
 }
 
 /* ************ */
@@ -143,6 +156,7 @@ img {
   background-repeat: no-repeat;
   height: 100vh;
   background-color: var(---turquise-blue);
+  max-width: 100%;
 }
 
 .hero .container {

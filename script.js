@@ -1,13 +1,19 @@
 "use strict";
 
-const button = document.querySelector(".modal");
 const nav = document.querySelector(".main-nav");
-console.log(button);
-console.log(nav);
+const button = document.querySelector(".modal");
+const openBtn = document.querySelector(".openBtn");
+const closeBtn = document.querySelector(".closeBtn");
 
 button.addEventListener("click", function (e) {
-  console.log(e);
   nav.classList.toggle("active");
+  if (nav.classList.contains("active")) {
+    closeBtn.classList.remove("inactive");
+    openBtn.classList.add("inactive");
+  } else {
+    closeBtn.classList.add("inactive");
+    openBtn.classList.remove("inactive");
+  }
 });
 
 // button.addEventListener("cilck", function (e) {
