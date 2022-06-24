@@ -65,7 +65,8 @@ ul {
 }
 
 .grid-4-col {
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 
 /* ************ */
@@ -191,4 +192,145 @@ ul {
 
 .learn-more.standout {
   border-color: var(--Soft-red);
+}
+
+/* ************ */
+/* SERVICES */
+/* ************ */
+
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 3.2rem;
+  padding: 0 1.2rem 3.2rem 1.2rem;
+  text-align: center;
+}
+
+.services.graphic-design {
+  background-image: url("/images/mobile/image-graphic-design.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60rem;
+  color: var(--Dark-desaturated-cyan-graphic-design-text);
+}
+
+.services.photography {
+  background-image: url("/images/mobile/image-photography.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60rem;
+  color: var(--Dark-blue-photography-text);
+}
+
+.services-heading {
+  font-size: 3rem;
+}
+
+.services-para {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+/* ************ */
+/* TESTIMONALS */
+/* ************ */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 4.4rem 0;
+  justify-content: center;
+  align-items: center;
+  gap: 4.4rem;
+}
+
+.testimonials-heading {
+  font-size: 1.8rem;
+  color: var(--Dark-grayish-blue);
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4.4rem;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.grid.grid-3-col {
+  gap: 4.4rem;
+}
+
+.customer-photo {
+  width: 25%;
+}
+
+.customer-photo img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+blockquote {
+  font-size: 2rem;
+  line-height: 1.8;
+  color: var(--Grayish-blue);
+}
+
+.testimonial-customer-name {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.testimonial-customer-position {
+  color: var(--Dark-grayish-blue);
+  font-size: 1.6rem;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+}
+
+/* ************ */
+/* PROJECTS */
+/* ************ */
+.projects img {
+  width: 100%;
+}
+
+/* ************ */
+/* FOOTER */
+/* ************ */
+
+footer {
+  background-color: var(--Dark-moderate-cyan-footer);
+}
+
+.footer-nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4.4rem;
+}
+
+.footer-nav-link {
+  font-size: 2rem;
+  color: var(--Dark-desaturated-cyan-graphic-design-text);
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.social-link img {
+  width: 2.4rem;
 }
