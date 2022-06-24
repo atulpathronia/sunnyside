@@ -15,8 +15,3 @@ button.addEventListener("click", function (e) {
     openBtn.classList.remove("inactive");
   }
 });
-
-// button.addEventListener("cilck", function (e) {
-//   console.log(e);
-//   document.querySelector(".main-nav").classList.toggle("active");
-// });
