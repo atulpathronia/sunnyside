@@ -73,6 +73,23 @@
     grid-template-rows: none;
   }
 
+  .main-nav {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+    pointer-events: fill;
+    background: none;
+    display: contents;
+  }
+
+  .main-nav-list {
+    flex-direction: row;
+  }
+
+  .main-nav-link {
+    font-size: 2rem;
+  }
+
   .modal {
     display: none;
   }
