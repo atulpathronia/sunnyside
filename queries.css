@@ -1,0 +1,121 @@
+/* ************ */
+/* MIN-WIDTH - 376px */
+/* ************ */
+
+@media (min-width: 24em) and (max-width: 48em) {
+  /* ************ */
+  /* SERVICES */
+  /* ************ */
+  .services {
+    padding: 0 2.4rem 3.2rem 2.4rem;
+  }
+}
+
+/* ************ */
+/* MIN-WIDTH - 768px */
+/* ************ */
+@media (min-width: 48em) {
+  html {
+    font-size: 68.75%;
+  }
+
+  /* ************ */
+  /* HERO */
+  /* ************ */
+  .hero {
+    background-image: url("/images/desktop/image-header.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  /* ************ */
+  /* ABOUT */
+  /* ************ */
+  .text-content {
+    padding: 6.4rem 4.8rem;
+  }
+
+  /* ************ */
+  /* SERVICES */
+  /* ************ */
+
+  .services {
+    padding: 0 3.2rem 4.8rem 3.2rem;
+  }
+
+  /* ************ */
+  /* TESTIMONIALS */
+  /* ************ */
+
+  .testimonial {
+    padding: 0 6rem;
+  }
+}
+
+/* ************ */
+/* MIN-WIDTH - 1024px */
+/* ************ */
+@media (min-width: 64em) {
+  /* ************ */
+  /* GLOBAL STYLE */
+  /* ************ */
+  .grid-2-col {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: none;
+  }
+  .grid-3-col {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: none;
+  }
+  .grid-4-col {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: none;
+  }
+
+  .modal {
+    display: none;
+  }
+
+  /* ************ */
+  /* ABOUT */
+  /* ************ */
+  .text-content {
+    padding-bottom: 0;
+    align-items: flex-start;
+    text-align: start;
+  }
+
+  .text-content.first {
+    padding-bottom: 0;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  /* ************ */
+  /* SERVICES */
+  /* ************ */
+  .services {
+    padding: 0 4.8rem 4.8rem 4.8rem;
+  }
+  /* ************ */
+  /* TESTIMONIALS */
+  /* ************ */
+
+  .testimonial {
+    padding: 0 1.2rem;
+  }
+
+  blockquote {
+    font-size: 1.6rem;
+  }
+}
+
+/* ************ */
+/* MIN-WIDTH - 1440px */
+/* ************ */
+@media (min-width: 90em) {
+  html {
+    font-size: 75%;
+  }
+}
