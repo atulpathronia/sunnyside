@@ -78,7 +78,6 @@
     visibility: visible;
     transform: translateX(0);
     pointer-events: fill;
-    background: none;
     display: contents;
   }
 
@@ -88,6 +87,10 @@
 
   .main-nav-link {
     font-size: 2rem;
+  }
+
+  .main-nav-link:hover {
+    color: var(--Dark-grayish-blue);
   }
 
   .modal {
